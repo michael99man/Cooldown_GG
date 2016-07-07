@@ -1,0 +1,204 @@
+.team-container-1{
+    display: inline-block;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;  
+    vertical-align: top;
+}
+
+.team-container-2{
+    display: inline-block;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    vertical-align:top;
+}
+
+
+#summName{
+    width:20%;
+    margin-left: 40%;
+}
+
+.champ-table{
+    background: black;
+}
+
+.champ-row{
+}
+
+.blue-border{
+    border: 5px solid blue;
+    border-bottom: 0px;
+}
+
+.red-border{
+    border: 5px solid red;
+    border-top: 0px;
+}
+
+.champ-column{
+    padding: 0 !important;
+    width:20%;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.abilities{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+ }
+
+.ability_row{
+    position: relative;
+    width: 100%;
+    height: 12%;
+    margin-top:18.5%;
+    z-index: 3;
+}
+
+.ability_pic{
+    position: relative;
+    height: auto;
+    max-width: 22.5%;    
+    margin-left:10%;
+
+    box-shadow: 3px 2px 3px #000;
+    -moz-box-shadow: 3px 2px 3px #000;
+    -webkit-box-shadow: 3px 2px 3px #000;
+    -khtml-box-shadow: 3px 2px 3px #000;
+}
+
+
+.cd-box{
+    display: inline-block;
+    max-width: 50%;
+}
+
+/*scales with window size*/
+.cooldowns{
+    font-size: 1.2vw;
+    font-weight: 400;
+    color: white;
+    text-shadow: 1px 1px 2px #000;
+    margin-left: 4.5%;
+}
+
+.champ{
+    width:100%;
+    height: auto;
+    z-index: 2;
+    
+}
+/*
+.champ-row{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    width: 100%;
+}
+
+.champ-column{
+    display: inline-block;
+    position: relative;
+    width: 20%;
+}
+.champ-column:before{
+    content: "";
+    display:block;
+    padding-top:100%;
+}
+.champ {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width:100%;
+    height: auto;
+}
+*/
+
+/* set front banner equal to viewheight */
+#banner{
+    height: 100vh !important;
+    padding-top: 30vh !important;
+}
+
+#one{
+    width: 90vw;
+    margin-left: 5vw;
+}
+
+#two{
+    width: 90vw;
+    margin-left: 5vw;
+}
+
+#three{
+    width: 90vw;
+    margin-left: 5vw;
+}
+
+/* arrow */
+.arrow-down {
+  width: 0; 
+  height: 0; 
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #fff;
+}
+
+.arrow-down:hover {
+  border-top: 20px solid #89D7FF;
+}
+
+/*overriding some bootstrap css*/
+
+.panel-group{
+    margin-bottom: 5px !important;
+}
+
+.panel-group .panel{
+    border-radius: 0px !important;
+}
+
+.list-group{
+    margin-bottom: 5px !important;
+}
+
+.panel-heading{
+    border-bottom: 0px !important;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+}
+
+.blue {
+    background-color: blue !important;
+}
+
+.purple {
+    background-color: purple !important;
+}
+
+.blue .panel-title{
+    color: white !important;
+}
+
+.purple .panel-title{
+    color: white !important;
+}
+
+
+
+/* overriding template css */
+@media screen and (max-width:1680px){
+    #banner{
+        /*fix this for full screen*/
+        padding: 8.5em 0 8.75em 0 !important;
+    }
+}
